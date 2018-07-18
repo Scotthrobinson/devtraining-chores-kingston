@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="task" label="Chores" max_length="40" name="x_73175_choreszero_chores" type="collection">
-        <element choice="1" label="Catagory" max_length="40" name="catagory" type="choice">
+        <element choice="1" label="Catagory" mandatory="true" max_length="40" name="catagory" type="choice">
             <choice>
                 <element label="Dishes" value="Dishes"/>
                 <element label="Puppy Prison Cleanout" value="Puppy Prison Cleanout"/>
