@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Chores" max_length="40" name="x_73175_choreszero_chores" type="collection">
+        <element choice="1" label="Catagory" max_length="40" name="catagory" type="choice">
+            <choice>
+                <element label="Dishes" value="Dishes"/>
+                <element label="Puppy Prison Cleanout" value="Puppy Prison Cleanout"/>
+                <element label="Take out Kitchen Trash" value="Take out Kitchen Trash"/>
+                <element label="Vacuum Upstairs" value="Vacuum Upstairs"/>
+                <element label="Dump Small Trash Cans" sequence="0" value="Dump Small Trash Cans"/>
+            </choice>
+        </element>
+    </element>
+</database>
